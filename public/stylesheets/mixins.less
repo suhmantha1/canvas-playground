@@ -1,0 +1,23 @@
+.transition(@properties) {
+  -webkit-transition: @properties;
+  -moz-transition: @properties;
+  -o-transition: @properties;
+  transition: @properties;
+}
+.transition-delay(@time) {
+  -webkit-transition-delay: @time;
+  transition-delay: @time;
+}
+.transform(@string){
+	-webkit-transform: 	 ~'@{string}';
+	-moz-transform: 	   ~'@{string}';
+	-ms-transform: 		   ~'@{string}';
+	-o-transform: 		   ~'@{string}';
+}
+.center-verticle {
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
