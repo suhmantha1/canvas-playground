@@ -3,5 +3,5 @@ module.exports = function (app) {
 };
 
 var index = function (req, res) {
-    res.render('index', { title: 'museyroom' });
+    res.render('index', { title: 'samcombs' });
 };

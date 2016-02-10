@@ -56,7 +56,7 @@ utils.getAnimationFrame = function () {
 			window.oRequestAnimationFrame ||
 			window.msRequestAnimationFrame ||
 			function (callback) {
-				return window.setTimeout(callback, 1000/60)
+				return window.setTimeout(callback, 1000000)
 			});
 	}
 };
