@@ -1,4 +1,8 @@
-# Canvas Demo
-Remember to `npm install` first
+# Canvas Stuff
 
-See `public/js/_site.js` to uncomment example modules
+![kaleidoscope](https://github.com/suhmantha1/canvas-playground/blob/master/public/images/kaleidoscope.gif?raw=true)
+
+
+
+Built by Sam Combs
+Thankkzzz to M.Coppola
